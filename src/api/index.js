@@ -7,3 +7,9 @@ axios.defaults.baseURL = 'http://localhost:3000'
 export function getBanner(type) {
   return axios.get(`/banner?type=${type}`)
 }
+
+// 获取推荐歌单
+// limit 数量 默认 30
+export function getMusicList(limit) {
+  return axios.get(`/personalized?limit=${limit}`)
+}

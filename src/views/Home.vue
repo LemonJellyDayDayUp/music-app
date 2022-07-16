@@ -2,7 +2,9 @@
   <div class="home">
 
     <top-nav></top-nav>
-    <swiper></swiper>
+    <banner></banner>
+    <icon-list></icon-list>
+    <music-list></music-list>
 
   </div>
 </template>
@@ -11,13 +13,17 @@
 <script>
 
 import TopNav from '@/components/TopNav.vue'
-import Swiper from '@/components/Swiper.vue'
+import Banner from '@/components/Banner.vue'
+import IconList from '@/components/IconList.vue'
+import MusicList from '@/components/MusicList.vue'
 
 export default {
   name: 'Home',
   components: {
     TopNav,
-    Swiper
+    Banner,
+    IconList,
+    MusicList
   },
   data() {
     return {
@@ -28,5 +34,5 @@ export default {
 </script>
 
 
-<style lang="less" scoped>
+<style scoped>
 </style>

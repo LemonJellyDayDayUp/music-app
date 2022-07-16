@@ -31,7 +31,7 @@ export default {
 
 </script>
 
-<style lang="less" scoped>
+<style scoped>
 .topNav {
   width: 7.5rem;
   height: 1rem;
