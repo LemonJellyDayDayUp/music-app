@@ -41,7 +41,7 @@ export default {
 
       wrapStyle: {
         transition: 'null',
-        transform: 'translateX(-7rem)'
+        transform: 'translateX(-7.5rem)'
       }
     }
   },
@@ -140,12 +140,14 @@ export default {
 
 <style scoped>
 .banner {
-  width: 7rem;
+  /* width: 7rem; */
   height: 2.7rem;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  border-radius: 0.3rem;
+  /* border-radius: 0.3rem; */
+
+  width: 7.5rem;
 }
 
 .banner .wrap {
@@ -156,8 +158,12 @@ export default {
 }
 
 .banner .wrap img {
-  width: 100%;
+  /* width: 100%; */
   vertical-align: middle;
+
+  width: 7rem;
+  border-radius: 0.3rem;
+  margin: 0 0.25rem;
 }
 
 .banner .circle {
