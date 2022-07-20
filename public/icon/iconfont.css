@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3521736 */
-  src: url('iconfont.woff2?t=1657780957245') format('woff2'),
-       url('iconfont.woff?t=1657780957245') format('woff'),
-       url('iconfont.ttf?t=1657780957245') format('truetype');
+  src: url('iconfont.woff2?t=1658297981048') format('woff2'),
+       url('iconfont.woff?t=1658297981048') format('woff'),
+       url('iconfont.ttf?t=1658297981048') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,54 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang4:before {
+  content: "\e656";
+}
+
+.icon-search:before {
+  content: "\e65c";
+}
+
+.icon-back:before {
+  content: "\e679";
+}
+
+.icon-pulldown:before {
+  content: "\e69f";
+}
+
+.icon-moreandroid:before {
+  content: "\e6a5";
+}
+
+.icon-message:before {
+  content: "\e6bc";
+}
+
+.icon-squarecheck:before {
+  content: "\e6d6";
+}
+
+.icon-add:before {
+  content: "\e6da";
+}
+
+.icon-share:before {
+  content: "\e6f3";
+}
+
+.icon-gengduo:before {
+  content: "\100cb";
+}
+
+.icon-yiban-xuanzhong:before {
+  content: "\e622";
+}
+
+.icon-fanhui:before {
+  content: "\e6fa";
 }
 
 .icon-sousuo-:before {

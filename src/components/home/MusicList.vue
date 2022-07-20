@@ -7,10 +7,10 @@
     </sub-title>
 
     <div class="list" :style="{ transform: `translateX(${listTranslateX}px)` }" @touchstart="touchstart($event)" @touchmove="touchmove($event)">
-      <div v-for="list in musicList" class="listItem">
+      <router-link :to="{ path: '/list', query: { id: list.id } }" v-for="list in musicList" :key="list.id" class="listItem">
         <img :src="list.picUrl">
         <div class="listName">{{ list.name }}</div>
-      </div>
+      </router-link>
     </div>
 
 
@@ -53,7 +53,11 @@ export default {
     getMusicList(this.num).then(res => {
       // console.log(res);
       res.data.result.forEach(l => {
-        this.musicList.push({ name: l.name, picUrl: l.picUrl })
+        this.musicList.push({
+          id: l.id,
+          name: l.name,
+          picUrl: l.picUrl
+        })
       })
     })
   },
@@ -88,6 +92,10 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: black;
+  text-decoration: none;
+}
 .musicList {
   width: 7.5rem;
   height: 5rem;

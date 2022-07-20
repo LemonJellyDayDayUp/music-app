@@ -6,6 +6,90 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1004676",
+      "name": "播放4",
+      "font_class": "bofang4",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "29947",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "30441",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "32092",
+      "name": "pull_down",
+      "font_class": "pulldown",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "32326",
+      "name": "more_android",
+      "font_class": "moreandroid",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "33520",
+      "name": "message",
+      "font_class": "message",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "38741",
+      "name": "square_check",
+      "font_class": "squarecheck",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "38747",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "61143",
+      "name": "share",
+      "font_class": "share",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
+    {
+      "icon_id": "29797297",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "100cb",
+      "unicode_decimal": 65739
+    },
+    {
+      "icon_id": "7269306",
+      "name": "已办-选中",
+      "font_class": "yiban-xuanzhong",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "8492778",
+      "name": "返回7",
+      "font_class": "fanhui",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
       "icon_id": "30584583",
       "name": "搜索-copy",
       "font_class": "sousuo-",

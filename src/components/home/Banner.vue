@@ -24,7 +24,7 @@ export default {
 
   data() {
     return {
-      pictures: [require('../assets/loading.png')],
+      pictures: [require('@/assets/loading.png')],
       circles: [],
       len: 0,
 

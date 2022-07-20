@@ -12,10 +12,10 @@
 
 <script>
 
-import TopNav from '@/components/TopNav.vue'
-import Banner from '@/components/Banner.vue'
-import IconList from '@/components/IconList.vue'
-import MusicList from '@/components/MusicList.vue'
+import TopNav from '@/components/home/TopNav.vue'
+import Banner from '@/components/home/Banner.vue'
+import IconList from '@/components/home/IconList.vue'
+import MusicList from '@/components/home/MusicList.vue'
 
 export default {
   name: 'Home',
